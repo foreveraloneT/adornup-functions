@@ -1,0 +1,10 @@
+{
+  "eslint.packageManager": "npm",
+  "editor.tabSize": 2,
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true
+  },
+  "typescript.tsdk": "./functions/node_modules/typescript/lib"
+}

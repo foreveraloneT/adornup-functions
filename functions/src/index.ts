@@ -26,6 +26,11 @@ export const sendEmail = functions.runWith({
       "The function must be called from an App Check verified app.");
   }
 
+  functions.logger.debug("app checked", {
+    appId: context.app.appId,
+    token: context.app.token,
+  });
+
   const {
     name,
     email,
